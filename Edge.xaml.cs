@@ -20,7 +20,7 @@ namespace GraphEditor
     /// <summary>
     /// Interaction logic for Edge.xaml
     /// </summary>
-    public partial class Edge : UserControl, INotifyPropertyChanged
+    public partial class Edge : UserControl, INotifyPropertyChanged, IGraphElement
     {
         #region Data
 

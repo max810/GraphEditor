@@ -8,9 +8,18 @@
              mc:Ignorable="d"
              Canvas.Left="{Binding ElementName=THIS, Path=LeftOffset, Mode=TwoWay}"
              Canvas.Top="{Binding ElementName=THIS, Path=TopOffset, Mode=TwoWay}"
-
-    Width="{Binding ElementName=THIS, Path=Diameter}" Height="{Binding ElementName=THIS, Path=Diameter}" Cursor="SizeAll">
-    <Border CornerRadius="{Binding ElementName=THIS, Path=Radius}" Background="{Binding ElementName=THIS, Path=Fill}" BorderThickness="1.25" BorderBrush="Black">
-        <TextBlock Text="{Binding ElementName=THIS, Path=Text}" FontSize="20" Foreground="White" HorizontalAlignment="Center" TextAlignment="Center" VerticalAlignment="Center"></TextBlock>
+             Width="{Binding ElementName=THIS, Path=Diameter}" 
+             Height="{Binding ElementName=THIS, Path=Diameter}" 
+             Cursor="SizeAll">
+    <Border CornerRadius="{Binding ElementName=THIS, Path=Radius}" 
+            Background="{Binding ElementName=THIS, Path=Fill}" 
+            BorderThickness="1.25" 
+            BorderBrush="Black">
+        <TextBlock Text="{Binding ElementName=THIS, Path=Text}" 
+                   FontSize="20" 
+                   Foreground="White" 
+                   HorizontalAlignment="Center" 
+                   TextAlignment="Center" 
+                   VerticalAlignment="Center"></TextBlock>
     </Border>
 </local:PositionableControl>
