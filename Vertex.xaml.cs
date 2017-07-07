@@ -21,7 +21,7 @@ namespace GraphEditor
     /// <summary>
     /// Interaction logic for Vertex.xaml
     /// </summary>
-    public partial class Vertex : PositionableControl
+    public partial class Vertex : PositionableControl, IGraphElement
     {
         #region Dependency Properties
 

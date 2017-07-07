@@ -21,7 +21,7 @@ namespace GraphEditor
     /// <summary>
     /// Interaction logic for Arrow.xaml
     /// </summary>
-    public partial class Arrow : UserControl, INotifyPropertyChanged, IGraphElement
+    public partial class Arrow : UserControl, INotifyPropertyChanged
     {
 
         #region Dependency Properties

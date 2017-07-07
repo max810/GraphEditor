@@ -62,7 +62,7 @@
     </Compile>
     <Compile Include="DragCanvas.cs" />
     <Compile Include="GeometryMath.cs" />
-    <Compile Include="IGraphObject.cs" />
+    <Compile Include="IGraphElement.cs" />
     <Compile Include="PositionableControl.cs" />
     <Compile Include="Vertex.xaml.cs">
       <DependentUpon>Vertex.xaml</DependentUpon>
